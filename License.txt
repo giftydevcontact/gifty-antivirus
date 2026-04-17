@@ -1,0 +1,126 @@
+GIFTY ANTIVIRUS PREMIUM
+End User License Agreement and Privacy Notice
+
+By installing this software, you agree to the following terms.
+
+────────────────────────────────────────────────────────────────────
+1. USAGE
+────────────────────────────────────────────────────────────────────
+This software is provided for personal use. You may install it on
+computers you own or control.
+
+────────────────────────────────────────────────────────────────────
+2. RESTRICTIONS
+────────────────────────────────────────────────────────────────────
+You may not reverse-engineer, decompile, or distribute modified
+versions of this software without permission from the author.
+
+────────────────────────────────────────────────────────────────────
+3. DISCLAIMER
+────────────────────────────────────────────────────────────────────
+This software is provided "as is" without warranty of any kind.
+The author is not liable for any damages arising from its use.
+
+────────────────────────────────────────────────────────────────────
+4. PYTHON RUNTIME
+────────────────────────────────────────────────────────────────────
+This installer may download and install the Python runtime on your
+behalf. Python is subject to the Python Software Foundation License
+(python.org/psf/license).
+
+────────────────────────────────────────────────────────────────────
+5. DATA COLLECTION & PRIVACY  (please read carefully)
+────────────────────────────────────────────────────────────────────
+
+Gifty Antivirus PREMIUM can collect anonymous usage data to help us
+improve the product. The first time you launch the app, you will be
+asked whether you want to share this data. Telemetry is OFF by
+default and only sent if you explicitly opt in. You can change your
+choice at any time in Settings → Privacy.
+
+5.1 WHAT WE COLLECT (only when telemetry is enabled)
+    a) An anonymous install ID — a randomly generated identifier
+       that is NOT derived from your name, hostname, username, IP
+       address, MAC address, or any device hardware identifier.
+       Disabling telemetry rotates this ID, severing the link to
+       any data previously sent.
+    b) A short-lived session ID, regenerated on every launch.
+    c) The application version (e.g. "4.0").
+    d) The general operating system family (e.g. "windows-10",
+       "windows-11"). No build numbers, locale, or language.
+    e) Feature-usage events — for example, which page of the app
+       you opened, when you started a scan, when you toggled a
+       protection on or off, and when the auto-updater checks for,
+       finds, skips, or installs a new version.
+    f) Aggregate scan statistics: scan type (quick/full/custom),
+       total number of files scanned, total number of threats
+       detected, scan duration in seconds, and whether the scan
+       was cancelled.
+    g) Aggregate detection categories: the category and severity
+       of any malware family detected and the source that
+       detected it (real-time monitor vs. on-demand scan).
+
+5.2 WHAT WE DO NOT COLLECT  —  EVER
+    The following are never transmitted, regardless of whether
+    telemetry is enabled or disabled:
+    a) File names, file paths, file hashes, or file contents.
+    b) Locations of detected threats.
+    c) Your hostname, username, computer name, or domain.
+    d) Your IP address (beyond what any HTTPS request reveals to
+       the receiving server, which is not stored alongside your
+       install ID).
+    e) MAC address, serial numbers, or other hardware identifiers.
+    f) Browsing history, documents, emails, photos, or any
+       personal files.
+    g) Process names, command lines, or registry contents.
+
+5.3 WHERE THE DATA IS SENT
+    When telemetry is enabled, events are sent over HTTPS to a
+    Google Cloud Firestore database operated by Gifty Software.
+    The database is configured to allow event creation only —
+    not public reading or modification.
+
+5.4 ACCESSING, DELETING, OR EXPORTING YOUR DATA
+    Because the install ID is anonymous, we cannot identify you by
+    name. To request access to or deletion of data tied to your
+    install ID, please visit:
+        https://github.com/giftydevcontact/gifty-antivirus/issues
+    and submit a request including the install ID shown in
+    Settings → Privacy → "View Exactly What's Collected".
+    You may also revoke consent in-app at any time, which rotates
+    your install ID immediately and severs further association.
+
+5.5 LEGAL BASIS
+    Telemetry collection is performed only on the basis of your
+    explicit, freely-given consent (GDPR Art. 6(1)(a)). Withdrawing
+    consent in Settings is as easy as giving it.
+
+5.6 LOCAL DATA
+    Independent of telemetry, the app stores scan history, settings,
+    quarantined-file metadata, and an install-ID file in your user
+    profile (e.g. %USERPROFILE% on Windows). This data never leaves
+    your computer unless you explicitly export it (e.g. via Scan
+    History → Export CSV).
+
+5.7 AUTOMATIC UPDATES
+    Gifty Antivirus checks GitHub Releases for new versions on
+    launch and roughly once per day while running. The check is a
+    single HTTPS request to api.github.com. GitHub may log the
+    request (IP, User-Agent, timestamp) under their own privacy
+    policy. We receive nothing from these checks.
+    
+    When you accept an update, the new program file is downloaded
+    over HTTPS, validated as a parseable Python file, and a UAC
+    prompt is shown so it can be copied into the install directory.
+    You can disable automatic checks in Settings → Updates; manual
+    checks remain available from the same page.
+
+────────────────────────────────────────────────────────────────────
+6. CONTACT
+────────────────────────────────────────────────────────────────────
+Questions about this agreement or your data:
+    https://github.com/giftydevcontact/gifty-antivirus/issues
+
+By clicking "I accept the agreement" you confirm that you have read
+and agree to the terms above, including section 5 on data
+collection.
